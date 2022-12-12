@@ -3,15 +3,15 @@ package main
 type vehicle interface{}
 
 type car struct {
-	Model       string
-	Make        string
-	TypeVehicle string
+	model       string
+	make        string
+	typeVehicle string
 }
 
 type truck struct {
-	Model       string
-	Make        string
-	TypeVehicle string
+	model       string
+	make        string
+	typeVehicle string
 }
 type bike struct {
 	Model string
